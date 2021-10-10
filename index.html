@@ -1,0 +1,26 @@
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Hello World</title>
+  <style>
+    h1{
+      margin: auto;
+      text-align: center;
+    }
+    #time{
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <h1>first App Page</h1>
+  <p id="time"></p>
+  
+  <script>
+    setInterval(() => {
+      time.innerHTML = new Date()
+    }, 1000)
+  </script>
+</body>
+</html>
